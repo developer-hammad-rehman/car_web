@@ -29,6 +29,8 @@ export default function Footer() {
         <div className='flex flex-col gap-5'>
         <h1 className='text-3xl font-bold text-white'>Socail Media</h1>
         <p className='font-bold text-xl text-white cursor-pointer'>Facbook</p>
+        <p className='font-bold text-xl text-white cursor-pointer'>WhatsApp</p>
+        <p className='font-bold text-xl text-white cursor-pointer'>Twiter</p>
         </div>
         </div>
     </footer>
