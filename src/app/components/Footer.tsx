@@ -35,9 +35,9 @@ export default function Footer() {
         </div>
         <div>
           <h1 className='text-3xl font-bold text-white'>Keep in touch</h1>
-          <div className='flex'>
-          <input type="text" className='p-2 sm:p-6'/>
-          <button className='p-2 sm:p-6 text-white font-bold bg-yellow-200'>Sumbit</button>
+          <div className='flex py-2'>
+          <input type="text" className='p-2 sm:p-3'/>
+          <button className='p-2 sm:p-3 text-white font-bold bg-yellow-200'>Sumbit</button>
           </div>
         </div>
         </div>
