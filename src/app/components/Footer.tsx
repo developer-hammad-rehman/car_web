@@ -32,7 +32,15 @@ export default function Footer() {
         <p className='font-bold text-xl text-white cursor-pointer'>WhatsApp</p>
         <p className='font-bold text-xl text-white cursor-pointer'>Twiter</p>
         </div>
+        <div>
+          <h1 className='text-3xl font-bold text-white'>Keep in touch</h1>
+          <div className='flex'>
+          <input type="text" className='p-2 sm:p-6'/>
+          <button className='p-2 sm:p-6 text-white font-bold bg-yellow-200'>Sumbit</button>
+          </div>
         </div>
+        </div>
+        <h6 className='text-white px-7'>© 2024. All Rights Reserved.</h6>
     </footer>
   )
 }
