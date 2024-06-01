@@ -33,7 +33,7 @@ export default function Choose() {
         <div className='py-10 w-full flex justify-center items-center flex-wrap gap-4'>
             {
                 data.map((val , i) => (
-                    <div className='hover:bg-gray-50 flex w-96 h-96 gap-5 px-10 py-5 flex-col justify-center items-center'>
+                    <div className='hover:bg-gray-50 flex w-96 h-96 gap-5 px-10 py-5 flex-col justify-center items-center' key={i}>
                         <div className={val.className}>
                           {val.icon}
                         </div>
