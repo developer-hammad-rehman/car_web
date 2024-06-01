@@ -1,3 +1,4 @@
+import { Facebook, MessageCircle, Twitter } from 'lucide-react'
 import Link from 'next/link'
 import React from 'react'
 
@@ -28,9 +29,9 @@ export default function Footer() {
         </div>
         <div className='flex flex-col gap-5'>
         <h1 className='text-3xl font-bold text-white'>Socail Media</h1>
-        <p className='font-bold text-xl text-white cursor-pointer'>Facbook</p>
-        <p className='font-bold text-xl text-white cursor-pointer'>WhatsApp</p>
-        <p className='font-bold text-xl text-white cursor-pointer'>Twiter</p>
+        <Facebook size={30} className='text-white cursor-pointer'/>
+        <MessageCircle size={30} className='text-white cursor-pointer'/>
+        <Twitter size={30} className='text-white cursor-pointer'/>
         </div>
         <div>
           <h1 className='text-3xl font-bold text-white'>Keep in touch</h1>
